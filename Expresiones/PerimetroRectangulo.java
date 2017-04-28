@@ -7,16 +7,14 @@
 class PerimetroRectangulo{
 
 	public static void main(String[] args){
-	//Declaracion de variables	
-	int perimetro;
-	int base=2;
-	int altura=7;
 
-	//Calculo del perimetro
-	perimetro=2*base+2*altura;
-	
-	//Se imprime por pantalla
-	System.out.println("El perimetro del rectangulo es: "+ perimetro);
+		int perimeter;
+		int base=2;
+		int height=7;
+
+		perimeter=2*base+2*height;
+		
+		System.out.println("Rectangle's perimeter: "+ perimeter);
 
 	}
 }
