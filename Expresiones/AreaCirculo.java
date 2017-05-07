@@ -16,6 +16,10 @@ class AreaCirculo{
 		area = pi*diametro;
 		
 		//Se imprime por pantalla
+		imprimirResultado(area);
+
+	}
+	private void imprimirResultado(double area){
 		System.out.println("El area del circulo es: "+area);
 	}
 }
